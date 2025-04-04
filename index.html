@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <form class="d-flex">
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    caption:
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Comments</label>
+                                      </div>
+                                      <button type="button" class="btn btn-light mt-2"><i class="fa-solid fa-camera"></i></button>
+                                      <button type="button" class="btn btn-light mt-2"><i class="fa-solid fa-location-dot"></i></button>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                    <div class="row">
+
+                      <div class="col">
+                        <img class="img-fluid rounded mb-3"
+                        src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                        alt="">
+
+                      </div>
+                      <div class="col">
+                        <img class="img-fluid rounded mb-3"
+                        src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                        alt="">
+
+                      </div>
+                      <div class="col">
+                        <img class="img-fluid rounded mb-3"
+                        src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                        alt="">
+
+                      </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                      </div>
+                      <div class="row">
+                        
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                        <div class="col">
+                          <img class="img-fluid rounded mb-3"
+                          src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg"
+                          alt="">
+  
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                
+                <!--Segun tab post vertical-->
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card mx-auto mt-4" style="width: 28rem;">
+                  <div class="card-header bg-white d-flex justify-content-between">
+                    <h3>My first image</h3>
+                    <span>03/04/2025</span>
+                  </div>
+                  <img src="https://thumbs.dreamstime.com/b/paysage-ensoleill%C3%A9-merveilleux-des-alpes-dolomites-vall%C3%A9e-pittoresque-imege-alpine-avec-les-pics-de-majestueuses-montagnes-193226194.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Likes 150</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                  </div>
+                </div>
+
+        
+
+            </div>
+            
+          </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
